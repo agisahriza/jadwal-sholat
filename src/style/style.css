@@ -1,0 +1,48 @@
+.navbar{
+  height: 50px !important;
+  background-color: #8B5CF6 !important;
+}
+
+.navbar .text-app-bar {
+  color: #F9FAFB !important;
+  cursor: default;
+}
+
+.typed-cursor {
+  margin-left: -15px;
+  color: #F9FAFB;
+}
+
+input:focus{
+  border-color: rgba(0,0,0, 0.8) !important;
+  box-shadow: 0 1px 1px rgba(139, 92, 246, 0.075) inset, 0 0 8px rgba(139, 92, 246, 0.6) !important;
+  outline: 0 none !important;
+}
+
+.clock {
+  background-color: #8B5CF6;
+  padding: 30px;
+  color: #F9FAFB;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.clock .time {
+  font-size: 64px;
+  margin: 0 auto;
+}
+
+.clock .date {
+  font-size: 24px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #8B5CF6 !important;
+  color: #F9FAFB !important;
+}
+
+button:hover {
+  background-color: #7C3AED !important;
+}
